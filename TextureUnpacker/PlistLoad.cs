@@ -73,7 +73,7 @@ namespace TextureUnpacker
 
 		public bool export(String texture_path, String export_path, bool clip_sprite = false)
 		{
-			Bitmap bmp, sprite;
+			Bitmap bmp;
 			Image img = Image.FromFile(texture_path);
 
 			if (!clip_sprite)
